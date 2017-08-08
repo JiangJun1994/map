@@ -1,0 +1,227 @@
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,ul,li,ol{margin:0;padding:0;}
+ul,li,ol{ list-style-type: none;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+html{    outline-color: transparent !important;
+  font-family:sans-serif;
+	background-color: #161829; background-image:  linear-gradient(170deg,rgba(16, 16, 138, 0.76),transparent 60%),linear-gradient(50deg,transparent,rgba(155,212,181,.15) 25%,rgba(1, 1, 2, 0.75) 70%,#27343c 95%);
+ background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+body{
+		font-family: SegoeUI,'Microsoft YaHei',微软雅黑,"Helvetica Neue",Helvetica,Arial,sans-serif;; font-size:15px;   color: #fff;
+}
+.fl{float: left;}
+.fr{float: right;}
+.pdb10{padding-bottom: 10px;}
+.pdb50{padding-bottom: 80px;}
+.pdt20{ padding-top: 20px;}
+.pdt10{ padding-top: 10px;}
+.map{ position: relative;}
+#tooltip{ position: absolute; top: 0; left: 0;line-height: 180%; font-weight: normal;}
+#tooltip h4{ line-height: 180%; font-weight: normal;}
+.state {
+  fill: none;
+  stroke: rgba(255,255,255,.4);
+  stroke-linejoin: round;
+}
+.states-choropleth {
+  fill: #ccc;
+}
+
+.tooltip_key {
+  font-weight: bold;
+}
+
+.tooltip_value {
+  margin-left: 20px;
+  float: right;
+}
+
+
+.clearfix::after,.clearfix::before{
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.contanier_width{ padding: 40px 0 20px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.header_time{
+	height: 24px;
+	line-height: 24px;
+	color: white;
+  padding-top: 15px;
+	font-weight: bold;
+}
+.time{
+	padding-left: 30px;
+}
+.fa-chevron-up{
+	color: #5f93ab;
+}
+.fa-chevron-down{
+	color: #923347;
+}
+.Location{
+	padding-top: 5px;
+	overflow: hidden;
+	color: white;
+  font-size: 28px; font-weight: bold;
+}
+.Location i{ font-size: 34px; vertical-align: middle;}
+.Location i.sm{font-size: 20px; }
+.Location i.mt-25{ margin-top: -22px;}
+.Location i.fafx{ font-size: 20px;}
+.logo>span{
+	background-color: #f4f4f4;
+	color: #3f3f3f;
+	padding: 2px 5px 5px;
+}
+
+.Location .num {
+
+	font-family:sans-serif, SegoeUI;
+  font-size: 50px;
+	font-weight:  normal; line-height: 100%;
+}
+.titnumber{ font-size: 72px;}
+.franch{
+	padding-right: 100px;
+	border-right: dotted 1px white;
+}
+.non_franch {
+	padding-left: 120px; padding-right: 50px;
+}
+
+.tit1{ font-size: 24px; font-weight: normal;}
+
+.line{
+
+	background-color: white;
+	height: 2px;
+	overflow: hidden;
+  width: 90%;
+	margin: 0 auto;
+}
+.content{
+	padding-top: 50px;
+}
+.left_contanier,.right_contanier{
+	width: 50%;
+}
+.little_title{
+	color: #f8ffff;
+	padding-right: 50px;
+
+}
+.condition{
+	padding-bottom: 45px;
+}
+.condition_one{
+	padding-right: 80px;
+	color: #c5ebf8;
+}
+.condition_two{
+	color: #626888;
+}
+.map img{
+	width: 98%;
+}
+.demand{
+	color: #fefffd;
+	margin-bottom:10px;
+}
+.distance,.travel_time{
+	 padding-bottom: 14px; margin-bottom: 25px;
+	border-bottom: solid 1px #fefffd;
+}
+.average{
+	color: #feffff;
+}
+.average_distance,.average_travel_time{
+	width: 45%;
+}
+.average_travel_time{ margin-left: 10%;}
+.number{ padding-bottom: 20px;
+	font-size: 26px;
+	line-height: 26px;
+}
+.lt_one{ padding-bottom: 16px;}
+.lt_one .num{
+	padding-left: 10px;
+	width: 75%;
+	height: 75px;
+	color: #001528;
+	background-color: #c0eafa;
+}
+.plan{
+	width: 20%;
+	text-align: center;
+	font-size: 16px;
+	line-height: 75px;
+}
+.average_travel_time .num{
+	background-color: #d9c1e3;
+}
+
+.num .num_top{
+	font-size: 14px;
+	padding-top: 10px
+}
+.num .num_bottom{
+	font-size: 32px;
+}
+.lt_two .num{
+	padding-left: 10px;
+	width: 70%;
+	height: 80px;
+	color: #fbfbfb;
+}
+.average_distance .lt_two .num{
+	background-color: #49a6c7;
+}
+.average_travel_time .lt_two .num{
+	background-color: #8f60b0;
+}
+.rank{
+	color: #fcffff;
+}
+.rank_title{
+	font-size: 16px;
+	line-height: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #fcffff;
+}
+.rank_detail > div{
+	padding-top: 30px;
+	float: left;
+	width: 20%;
+
+
+}
+.rank_detail p {
+	 width: 130px; text-align: center; line-height: 100%;
+}
+.rank_detail > div > div{
+	margin-left: 10px;
+	width: 100px;
+	height: 100px;
+	border: solid 2px rgba(255, 255, 255, 0.46);
+	font-size: 24px;
+	line-height: 100px;
+	border-radius: 50%;
+	background-color: rgba(16, 16, 138, 0.16);
+	margin-bottom: 10px;
+  text-align: center;
+}
+.bottom_time{
+ width: 90%; margin: 0 auto; text-align: right;
+	color: #fffdff; padding: 20px 0; font-size: 24px;
+}

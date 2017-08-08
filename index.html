@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/normalize.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script src="js/d3.v3.min.js"></script>
+<!-- <script src="js/guangxi.js"></script> -->
+<script src="js/gansu.js"></script>
+<script src="js/main.js"></script>
+</head>
+<body>
+
+<div class="header contanier_width clearfix">
+			<div class="header_time clearfix">
+				<div class="time fl">2017年07月23日</div>
+				<div class="change_time fr">
+					<i class="fa fa-chevron-up fa-x"></i>
+					<i class="fa fa-chevron-down fa-x"></i>
+					<span>Change From Last Week</span>
+				</div>
+			</div>
+			<div class="clearfix Location">
+				<div class="logo fl">
+					<i class="fa fa-jpy"></i>
+					<span>桂林银行ATM数据交易量</span>
+					<div class="num pdt20">
+						<i class="fa fa-chevron-up fa-x mt-25"></i>
+						<span class="titnumber">9,466</span>
+					</div>
+				</div>
+				<div class="non_franch fr pdt10">
+					<i class="fa fa-building-o sm"></i>
+					<span class="tit1">交易金额</span>
+					<div class="num pdt10">
+						<span>1,116</span>
+					</div>
+				</div>
+				<div class="franch fr pdt10">
+					<i class="fa fa-building-o sm"></i>
+					<span class="tit1">交易笔数</span>
+					<div class="num pdt10">
+						<span>8,350</span>
+						<i class="fa fa-chevron-up fafx mt-25"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="line"></div>
+
+		<div class="content contanier_width clearfix">
+			<div class="left_contanier fl">
+				<div class="condition">
+					<span class="little_title">Current Dealer Coverage</span>
+					<span class="condition_one">≤ 15 Miles</span>
+					<span class="condition_two">≤ 30 Miles</span>
+				</div>
+				<div class="map">
+					<div id="tooltip"></div>
+	<svg width="100%" height="600" id="target"></svg>
+
+				</div>
+			</div>
+			<div class="right_contanier fl clearfix pdb10">
+				<div class="average clearfix pdb50">
+					<div class="average_distance fl">
+						<div class="distance ">
+							<i class="fa fa-css3"></i>
+							<span>Demand Coverage-Distance</span>
+						</div>
+						<h5 class="pdb10">Average Distance</h5>
+						<p class="number pdb10">32.44 Miles</p>
+						<div class="lt_one clearfix">
+							<!-- width 最小40%，最大为75% -->
+							<div class="num fl" style=" width:75%;">
+								<p class="num_top">≤ 15Mi</p>
+								<p class="num_bottom">60.3%</p>
+							</div>
+							<div class="plan fl">plan</div>
+						</div>
+						<div class="lt_two clearfix">
+							<!-- width 最小40%，最大为75% -->
+							<div class="num fl" style=" width:55%;">
+								<p class="num_top">≤ 30Mi</p>
+								<p class="num_bottom">75.2%</p>
+							</div>
+							<div class="plan fl">plan</div>
+						</div>
+					</div>
+					<div class="average_travel_time fl">
+						<div class="travel_time ">
+							<i class="fa fa-github"></i>
+							<span>Demand Coverage-Travel Time</span>
+						</div>
+						<h5 class="pdb10">Average Travel Time</h5>
+						<p class="number pdb10">38.73 Minutes</p>
+						<div class="lt_one clearfix pdb10">
+							<!-- width 最小30%，最大为75% -->
+							<div class="num fl" style=" width:30%;">
+								<p class="num_top">≤ 30Min</p>
+								<p class="num_bottom">57.0%</p>
+							</div>
+							<div class="plan fl">plan</div>
+						</div>
+						<div class="lt_two clearfix">
+							<!-- width 最小30%，最大为75% -->
+							<div class="num fl" style=" width:75%;">
+								<p class="num_top">≤ 60Mi</p>
+								<p class="num_bottom">72.3%</p>
+							</div>
+							<div class="plan fl">plan</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="rank">
+					<div class="rank_title">
+						<i class="fa  fa-jpy"></i>
+						<span>Top 5 Approved Sales by Make Over Last 30 Days</span>
+					</div>
+					<div class="rank_detail">
+						<div class="toyota">
+							<div class="sales_num">3.9k</div>
+
+							<p class="car_name">Toyota</p>
+						</div>
+						<div class="honda">
+							<div class="sales_num">2.7k</div>
+
+							<p class="car_name">Honda</p>
+						</div>
+						<div class="ford">
+							<div class="sales_num">2.2k</div>
+
+							<p class="car_name">Ford</p>
+						</div>
+						<div class="nissan">
+							<div class="sales_num">2.0k</div>
+
+							<p class="car_name">Nissan</p>
+						</div>
+						<div class="chevrolet">
+							<div class="sales_num">1.6k</div>
+
+							<p class="car_name">Chevrolet</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom_time  clearfix">Friday,April 24 <span class="bold_text">12:19PM</span></div>
+</body>
+</html>
